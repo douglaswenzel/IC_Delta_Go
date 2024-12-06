@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário - DeltaGo</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Usuário</h1>
+        <form action="/cadastrar" method="POST">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+
+            <label for="matricula">Número de Matrícula</label>
+            <input type="text" id="matricula" name="matricula" required>
+
+            <label for="sexo">Sexo</label>
+            <select id="sexo" name="sexo" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+
+            <label for="tipo">Tipo</label>
+            <input type="text" id="tipo" name="tipo" required>
+
+            <label for="unidade">Unidade</label>
+            <input type="text" id="unidade" name="unidade" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
