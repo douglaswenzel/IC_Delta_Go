@@ -12,4 +12,4 @@ Na chamada da função, adicione o ID como parâmetro, ao qual será castrado
 
 Após, execute o algoritmo de treinamento de faces, o 2_treinamento
 
-Por último, o algoritmo 2_controle_acesso irá realizar a identificação de faces e reconhecimento de usuários cadastrados.
+Por último, o algoritmo 3_controle_acesso irá realizar a identificação de faces e reconhecimento de usuários cadastrados.
